@@ -44,14 +44,14 @@
                 &kp W  &kp L  &kp Y  &kp P     &kp B &trans  &trans  &kp Z  &kp F     &kp O      &kp U     &kp APOS
                 &kp C  &kp R  &kp S  &kp T     &kp G &trans  &trans  &kp M  &kp N     &kp E      &kp I    &kp A
                 &kp Q  &kp J  &kp V  &kp D     &kp K &trans  &trans  &kp X  &kp H     &kp SLASH  &kp COMMA &kp DOT 
-                &trans &trans &trans &kp SHIFT &mo 1 &trans  &trans  &mo 2  &kp SPACE &trans     &trans    &trans
+                &trans &trans &trans &kp LSHFT &mo 1 &trans  &trans  &mo 2  &kp SPACE &trans     &trans    &trans
             >;
         };
 
         lower {
             bindings = <
                 &kp N1     &kp N2     &kp N3       &kp N4       &kp N5    &trans  &trans &kp N6   &kp N7   &kp N8   &kp N9    &kp N0
-                &kp LCTL   &kp LALT   &kp LGUI     &kp SHIFT    &kp PRCNT &trans  &trans &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp BSPC
+                &kp LCTL   &kp LALT   &kp LGUI     &kp LSHFT    &kp PRCNT &trans  &trans &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp BSPC
                 &kp C_PREV &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP  &trans  &trans &kp DEL  &kp TAB  &kp CAPS &trans    &kc ENTER
                 &trans     &trans     &trans       &trans       &trans    &trans  &trans &trans   &trans   &trans   &trans    &trans
             >;
@@ -60,7 +60,7 @@
         raise {
             bindings = <
                 &kp EXCL  &kp AT   &kp POUND &kp DLLR &kp TILDE &trans &trans &kp CARET &kp AMPS  &kp STAR &kp SEMI &kp COLON
-                &kp MINUS &kp LBKT &kp LBRC  &kp LPAR &kp PRCNT &trans &trans &kp LT    &kp SHIFT &kp LGUI &kp LALT &kp LCTL
+                &kp MINUS &kp LBKT &kp LBRC  &kp LPAR &kp PRCNT &trans &trans &kp LT    &kp LSHFT &kp LGUI &kp LALT &kp LCTL
                 &kp UNDER &kp RBKT &kp RBRC  &kp RPAR &kp GRAVE &trans &trans &kp GT    &kp EQUAL &kp BSLH &kp PIPE &kp PLUS
                 &trans    &trans   &trans    &trans   &trans    &trans &trans &trans    &trans    &trans   &trans   &trans
             >;
@@ -69,7 +69,7 @@
          3 {
             bindings = <
                 &kp F1   &kp F2   &kp F3   &kp F4    &kp F5  &trans &trans &kp F6 &kp F7    &kp F8   &kp F9   &kp F10
-                &kp LCTL &kp LALT &kp LGUI &kp SHIFT &kp F11 &trans &trans &kp LT &kp SHIFT &kp LGUI &kp LALT &kp LCTL
+                &kp LCTL &kp LALT &kp LGUI &kp LSHFT &kp F11 &trans &trans &kp LT &kp LSHFT &kp LGUI &kp LALT &kp LCTL
                 &trans   &trans   &trans   &trans    &trans  &trans &trans &trans &sys_reset    &trans   &trans   &trans
                 &trans   &trans   &trans   &trans    &trans  &trans &trans &trans &trans    &trans   &trans   &trans
             >;
