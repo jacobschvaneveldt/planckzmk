@@ -51,7 +51,7 @@
         lower {
             bindings = <
                 &kp N1     &kp N2     &kp N3       &kp N4       &kp N5      &trans  &trans &kp N6   &kp N7   &kp N8   &kp N9    &kp N0
-                &kp LCTRL  &kp LALT   &kp LGUI     &kp LSHIFT   &kp PERCENT &trans  &trans &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp BACKSPACE
+                &kp LCTRL  &kp LALT   &kp LCMD     &kp LSHFT    &kp PRCNT   &trans  &trans &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp BSPC
                 &kp C_PREV &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP    &trans  &trans &kp DEL  &kp TAB  &kp CAPS &trans    &kc ENTER
                 &trans     &trans     &trans       &trans       &trans      &trans  &trans &trans   &trans   &trans   &trans    &trans
             >;
