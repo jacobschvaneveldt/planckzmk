@@ -51,7 +51,7 @@
         lower {
             bindings = <
                 &kp N1     &kp N2     &kp N3       &kp N4       &kp N5    &trans  &trans &kp N6   &kp N7   &kp N8   &kp N9    &kp N0
-                &kp LCTRL  &kp LALT   &kp LGUI     &kp LSHFT    &kp PRCNT &trans  &trans &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp BSPC
+                &kp LCTRL  &kp LALT   &kp LGUI     &kp LSHFT    &kp PRCNT &trans  &trans &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp BSPC
                 &kp C_PREV &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP  &trans  &trans &kp DEL  &kp TAB  &kp CAPS &trans    &kc ENTER
                 &trans     &trans     &trans       &trans       &trans    &trans  &trans &trans   &trans   &trans   &trans    &trans
             >;
@@ -69,7 +69,7 @@
          3 {
             bindings = <
                 &kp F1    &kp F2   &kp F3   &kp F4    &kp F5  &trans &trans &kp F6 &kp F7    &kp F8   &kp F9   &kp F10
-                &kp LCTRL &kp LALT &kp LGUI &kp LSHFT &kp F11 &trans &trans &kp LT &kp LSHFT &kp LGUI &kp LALT &kp LCTRL
+                &kp LCTRL &kp LALT &kp LGUI &kp LSHFT &kp F11 &trans &trans &kp LT &kp LSHFT &kp LGUI &kp LALT &kp LCTRL
                 &trans    &trans   &trans   &trans    &trans  &trans &trans &trans &sys_reset    &trans   &trans   &trans
                 &trans    &trans   &trans   &trans    &trans  &trans &trans &trans &trans    &trans   &trans   &trans
             >;
